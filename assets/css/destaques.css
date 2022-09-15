@@ -1,0 +1,24 @@
+.destaques{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% ,33.33%,33.33%;
+    height: calc(100vh - 50px);
+}
+
+.destaques__principal{
+    background-image: url(../img/fortnite.jpg);
+    background-repeat: no-repeat;/* para a imagem não repetir */
+    background-position: center;/* para a imagem ficar centralizada */
+    background-size: cover; /* para cobrir todo o espaço da DIV */
+    grid-column-start: 1; /* escolhendo a coluna que ele vai começar */
+    grid-column-end: 4; /* escolhendo a coluna que ele vai parar (de quiser que ele pare na 3 tem que colocar 4) */
+    grid-row-start: 1; /* escolhendo a linha que ele vai começar */
+    grid-row-end: 3; /* escolhendo a linha que ele vai começar (de quiser que ele pare na 3 tem que colocar 4) */
+}
+
+.destaques__secundario:nth-child(2){  /* :NHT-CHILD(2) pq ele é o numero dois da fila filho */
+    background: url('../img/pubg.jpg') center / cover no-repeat;
+    grid-column-start: 4 / 4; /* indica onde começa e onde termina  */
+    grid-row-start: 1 / 1; /* indica onde começa e onde termina  */
+    
+}
