@@ -1,4 +1,4 @@
-<h1>➡<a href="https://pe-salviano.github.io/arquitetura-css-assets/arquitetura-css-assets/" target="_blank"> Alura Store </a>⬅</h1>
+<h1>➡<a href="https://pe-salviano.github.io/css-grid/" target="_blank"> Alura Store </a>⬅</h1>
 
 
 <h2>⚔ Tecnologias Utilizadas</h2>
@@ -14,7 +14,7 @@
 <p>Esse projeto foi desenvolvido através do curso de CSS Grid Layout da Alura, Por meio do CSS Grid Layout conseguimos estabelecer o posicionamento de
 cada sessão do site.Para a construção da parte de "destaques" foi definido um grid com diversas colunas e linhas e define a posição de elemento por elemento.
 Para concluir e deixar o projeto responsivo foi utilizado o media screen, o site se tornou funcionou em telas maiores ou menores, o tornando, além disso, mobile friendly.</p>
-<p><a href="https://pe-salviano.github.io/arquitetura-css-assets/arquitetura-css-assets/" target="_blank"> Link de acesso ao projeto </a></p>
+<p><a href="https://pe-salviano.github.io/css-grid/" target="_blank"> Link de acesso ao projeto </a></p>
 
 ## Layout Mobile
 ![Mobile 1](https://github.com/pe-salviano/css-grid/blob/main/assets/img/layout-mobile.png)
